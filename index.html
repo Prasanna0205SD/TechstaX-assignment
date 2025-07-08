@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webhook Events</title>
+</head>
+<body>
+  <h1>Received Events</h1>
+  <ul>
+    {% for event in events %}
+      <li>{{ event }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
